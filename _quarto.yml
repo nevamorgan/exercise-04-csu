@@ -1,0 +1,13 @@
+title: "ESS 330 Actvity 4"
+subtitle: "Meet R, Quarto, & Github"
+author: Neva Morgan
+date: last-modified
+format:
+  html:
+    toc: true
+knitr:
+  opts_chunk:
+    echo: true
+    collapse: true
+    comment: "#>"
+

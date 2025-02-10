@@ -1,8 +1,7 @@
 ---
-title: "ESS 330 Actvity 4"
-subtitle: "Meet R, Quarto, & Github"
-author: Mike Johnson
-date: last-modified
+title: "My First Quarto Document"
+author: Neva Morgan
+date: today
 format:
   html:
     toc: true
@@ -232,9 +231,9 @@ cities  |>
 
 ```{r}
 #| echo: false
-threshold <- 10000
+threshold <- 100000
 
-big_cities <-  cities |> 
+big_cities <-  cities|> 
   filter(population > threshold)  |> 
   filter(!state_name %in% c("Alaska", "Hawaii", "Puerto Rico"))
 ```
